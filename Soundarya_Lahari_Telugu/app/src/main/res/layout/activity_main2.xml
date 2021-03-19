@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#804fc4"
+    tools:context=".Main2Activity">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="4"
+        android:columnCount="2"
+        >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:background="@android:color/holo_green_light"
+            android:text="సౌందర్యలహరి"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="స్తోత్ర పరిచయం"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:background="@android:color/holo_red_light"
+            android:text="స్తోత్ర సారాంశం\n(ముఖ్యమైనది)"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:background="@color/colorAccent"
+            android:text="షట్చక్రాలు\n(ముఖ్యమైనది)"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:background="@android:color/holo_orange_light"
+            android:text="శ్రీచక్రము"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:background="@android:color/holo_green_light"
+            android:text="యాప్ రూపకర్త\n దొడ్డక నవీన్ కుమార్"
+            android:textColor="@android:color/background_dark"
+            android:textSize="10sp" />
+
+
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
